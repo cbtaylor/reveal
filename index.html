@@ -50,7 +50,17 @@
 	<li><a href="index.slides.html" target="_top">iPython notebook example</a></li>
 	<li><a href="baseball.slides.html" target="_top">Baseball statistics exploration</a></li>
 </ul>
-</div></div></section>
+</div></div></section><section class="has-light-background" data-background-color="#9fc5e8" data-id="1f197392968249662aa7d29e96718a34"><div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 0px; height: auto;" data-block-id="a024d28f3a93bba46e101ed9fec97047"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 11;">
+<h3>How to turn iPython notebooks into slideshows</h3>
+</div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 70px;" data-block-id="97dfe011cdd2fc949d72690a0e64350d"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+<p style="text-align: left;"><span style="font-size:20.8px; text-align:left">To turn your notebook into a slideshow on your local machine type the following at a terminal:</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 960px; height: 38px; left: 0px; top: 140px;" data-block-id="348dc569dabd9b7da4e3341106946f33"><div class="sl-block-content" style="z-index: 13;"><pre><code>home$ jupyter nbconvert your_notebook.ipynb --to slides --post serve</code></pre></div></div>
+<div class="sl-block" data-block-type="text" style="height: auto; min-width: 30px; min-height: 30px; width: 960px; left: 0px; top: 210px;" data-block-id="fac87a374689a7ae5f3eb3cf6dd77e2b"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 14;">
+<p style="text-align: left;"><span style="font-size:20.8px; text-align:left">And if you want to create a portable html file that you can host somewhere like github type the following instead:</span></p>
+</div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 960px; height: 42px; left: 0px; top: 316px;" data-block-id="8a4ed108317f900ff9c50f6ba5ce4537"><div class="sl-block-content" style="z-index: 15;"><pre class="stylus"><code>home$ jupyter nbconvert your_notebook.ipynb --to slides --reveal-prefix "http://cdn.jsdelivr.net/reveal.js/2.6.2"</code></pre></div></div></section>
 			</div>
 		</div>
 
